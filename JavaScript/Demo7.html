@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getFullName()
+        {
+                fn=document.f1.fname.value;
+                ln=document.f1.lname.value;
+                fullname = fn +" "+ ln ; 
+                document.f1.fullname.value= fullname ;       
+        }
+        function xyz()
+       {
+        document.getElementById('ffff').style.backgroundColor='pink';
+       } 
+       
+    </script>
+    <style>
+        .myimg:hover{
+            width: 11%;
+            height: 11%;
+           border: 5px solid silver;
+        }
+    </style>
+</head>
+<body>
+   <marquee onmouseover="stop()" onmouseout="start()"> <h1>Hi Welcome to Jav Script ...!</h1></marquee>
+  
+    <form name="f1">
+          First  Name :  <input type="text" name="fname" ><br>
+          Last  Name :  <input type="text" name="lname" onblur="xyz()" id="ffff"><br>
+          Full name : <input type="text" name="fullname" onfocus="getFullName()"><br>
+        <input type="button" value="CLICK" onclick="getFullName()">
+        <input type="button" value="CLICK" ondblclick="getFullName()"><br><br>
+        <img src="Tiger.jpg" width="10%" height="10%" id="myimg" class="myimg">
+    </form>
+</body>
+</html>
+<!-- 
+Events :
+    onfocu : \
+    onBlur: when i come out 
+    onclick 
+    onselect 
+    onmouseout
+    onmouseover -->
+
+

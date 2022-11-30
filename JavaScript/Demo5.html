@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getFullName()
+        {
+                fn=document.f1.fname.value;
+                ln=document.f1.lname.value;
+                fullname = fn +" "+ ln ; 
+                alert("Hi My Full name is "+fullname);
+        }
+    </script>
+</head>
+<body>
+    <h1>Hi Welcome to Jav Script ...!</h1>
+  
+    <form name="f1">
+          First  Name :  <input type="text" name="fname"><br>
+          Last  Name :  <input type="text" name="lname"><br>
+        <input type="submit" value="CLICK" onclick="getFullName()">
+
+    </form>
+    
+</body>
+</html>

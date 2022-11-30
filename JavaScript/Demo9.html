@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cal(myvalue)
+        {
+            a = parseInt (document.getElementById('aval').value);
+            b =parseInt(document.getElementById('bval').value);
+            if(myvalue=="ADD")
+            {
+                res = a  + b ;
+                 document.getElementById('sum').value= res;
+            }
+            else if(myvalue=="SUB")
+            {
+                res = a  - b ;
+                 document.getElementById('sum').value= res;
+            }
+            else if(myvalue=="MUL")
+            {
+                res = a  * b ;
+                 document.getElementById('sum').value= res;
+            }
+            else if(myvalue=="DIV")
+            {
+                res = a  / b ;
+                 document.getElementById('sum').value= res;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1> Caculator Demo </h1>
+
+        <form>
+                A : <input type="text" id="aval"><br>
+                B : <input type="text" id="bval"><br>
+                Result :<input type="text" id="sum"><br>
+                <input type="button" value="ADD" onclick="cal(value)" >
+                <input type="button" value="SUB" onclick="cal(value)">
+                <input type="button" value="MUL" onclick="cal(value)">
+                <input type="button" value="DIV" onclick="cal(value)">
+
+        </form>
+</body>
+</html>
+
+

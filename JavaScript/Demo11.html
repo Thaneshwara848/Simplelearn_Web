@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myvalid(){
+           username = document.getElementById('uname').value;
+          if(username.length==0   || username.length==null )
+          {
+            // console.log("Nume Must requried ...!")
+            document.getElementById('errmsg').innerHTML="Name Must be requried"
+          }
+          else if(username.length>0 && username.length<3)
+          {
+            // console.log("Name must be 3 char ")
+            document.getElementById('errmsg').innerHTML="Name Must be MIN 3 char "
+          }
+          else{
+            document.getElementById('errmsg').innerHTML="<span style='color:green'>Name is OKAY</span>  "
+          }
+        }
+    </script>
+</head>
+<body>
+        <h1> Validation Demo </h1>
+        <form>
+            NAME :
+            <br>
+            <input type="text" id="uname"> 
+            <br>
+            <span id="errmsg" style="color: red "></span>
+            <br> 
+
+            <input type="button" value="CLICK" onclick="myvalid()">
+        </form>
+
+</body>
+</html>
+
+AGE : 
+        length is 0 / null : age mu be requried 
+        > 100 : age musy be in betwenn 18 to 100 
+        < 18 : ge musy be in betwenn 18 to 100 
+        aprat from nmumber if nay char or alphans : err msg : number s only allowed 
+
+
+        Tmro  ? 
+
+
+
+        1  : create a buituful web page with html , css bootstracp , js 
+        2) Caculator 
+        3) validation with Age field 
+
+
+        typesript and angualr 

@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add()
+        {
+            a = parseInt (document.getElementById('aval').value);
+            b =parseInt(document.getElementById('bval').value);
+
+            res = a  + b ;
+            document.getElementById('sum').value= res;
+        }
+        function sub()
+        {
+            a = parseInt (document.getElementById('aval').value);
+            b =parseInt(document.getElementById('bval').value);
+
+            res = a  - b ;
+            document.getElementById('sum').value= res;
+        }
+        function mul()
+        {
+            a = parseInt (document.getElementById('aval').value);
+            b =parseInt(document.getElementById('bval').value);
+
+            res = a  * b ;
+            document.getElementById('sum').value= res;
+        }
+        function div()
+        {
+            a = parseInt (document.getElementById('aval').value);
+            b =parseInt(document.getElementById('bval').value);
+
+            res = a  / b ;
+            document.getElementById('sum').value= res;
+        }
+
+    </script>
+</head>
+<body>
+    <h1> Caculator Demo </h1>
+
+        <form>
+                A : <input type="text" id="aval"><br>
+                B : <input type="text" id="bval"><br>
+                Result :<input type="text" id="sum"><br>
+
+
+                <input type="button" value="ADD" onclick="add()">
+                <input type="button" value="SUB " onclick="sub()">
+                <input type="button" value="MUL" onclick="mul()">
+                <input type="button" value="DIV" onclick="div()">
+
+        </form>
+
+
+
+
+</body>
+</html>
