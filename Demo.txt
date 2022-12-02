@@ -1,0 +1,48 @@
+
+
+4 days : 
+	
+
+Components 
+ROuting 
+DataBinding 
+Directives 
+Pipes 
+Services 
+Https 
+Life Cycle Hooks 
+
+
+Component : 
+
+	Sibling 
+	A 
+		Child components 
+		a1 
+		a2 
+		a3 
+	B
+	C
+
+Routing 
+	
+	3 ) steps :
+
+		1 ) in your html 
+			
+			routerLink="path"
+		2)
+			<router-outlet></router-outlet>	
+	
+		
+		3) in Routing.modul.ts
+			
+			route[
+
+				{
+					path:'login',component:LoginCOmponent
+				},
+				{
+				
+				}
+			]
