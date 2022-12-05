@@ -13,6 +13,7 @@ import { PersonalComponent } from './loan/personal/personal.component';
 import { ServicesComponent } from './services/services.component';
 import { DepartmentComponent } from './department/department.component';
 import { SimplylearnComponent } from './simplylearn/simplylearn.component';
+import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SimplylearnComponent } from './simplylearn/simplylearn.component';
     PersonalComponent,
     ServicesComponent,
     DepartmentComponent,
-    SimplylearnComponent
+    SimplylearnComponent,
+    DatabindingdemoComponent
   ],
   imports: [
     BrowserModule,
