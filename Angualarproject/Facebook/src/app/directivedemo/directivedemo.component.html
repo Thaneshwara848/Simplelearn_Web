@@ -1,3 +1,36 @@
+<hr>
+
+<div [ngClass]="{'mybackgroung':true,'bdr':true,'divsize':true}">
+    <h1>Hi Div 1 </h1>
+</div>
+
+
+<div [ngClass]="{'mybackgroung':true,'bdr':false,'divsize':true}">
+    <h1>Hi Div 2  </h1>
+</div>
+
+
+<div [ngClass]="{'mybackgroung':false,'bdr':true,'divsize':true}">
+    <h1>Hi Div 3  </h1>
+</div>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
 <div class="div1" *ngIf="abc">
     <h1>Hiiiiiiiiiii Boss</h1>
 </div>
@@ -9,9 +42,9 @@
 <div>
     Fruit :<input type="text" name="fruit" #fruit>
     <input type="submit" value="Add Fruit" (click)="addfruit(fruit.value)">
-    <ul *ngFor="let fruit of  fruits">
-        <!-- <li *ngIf="fruit=='Banana'">{{fruit}}</li> -->
-        <li>{{fruit}}</li>
+    <ul *ngFor="let fruit of  fruits; let i = index">
+        
+        <li> {{i}}----{{fruit}}</li>
     </ul>
 </div>
 <hr>
@@ -26,9 +59,17 @@
         <li *ngSwitchCase="5">Tamil</li>
         <li *ngSwitchCase="6">Maliyali</li>
         <li *ngSwitchDefault>Hindi</li>
-
-
-
     </ul>
 </div>
 
+<div>
+
+    <ul>
+        <li *ngFor="let person of people">
+          {{ person.name }}--{{person.AGE}}
+        </li>
+       </ul>
+</div> -->
+
+<!-- <h3><a  routerLink="attrdemo"> Attrubute Directive Demo </a></h3>
+<router-outlet></router-outlet> -->

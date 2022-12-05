@@ -1,12 +1,10 @@
-.div1{
-    background-color: red;
-    color: white;
-}
-
-.div2
-{
+.mybackgroung{
     background-color: pink;
 }
-.div3{
-    background-color: aqua;
+.bdr{
+    border: 5px solid red ;
+}
+
+.divsize{
+    width: 50%;
 }

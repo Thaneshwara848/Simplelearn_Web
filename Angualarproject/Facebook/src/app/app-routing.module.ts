@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AttdirComponent } from './attdir/attdir.component';
 import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { HomeComponent } from './home/home.component';
@@ -9,6 +10,10 @@ import { ServicesComponent } from './services/services.component';
 import { SimplylearnComponent } from './simplylearn/simplylearn.component';
 
 const routes: Routes = [
+  {
+    path:'attrdemo',component:AttdirComponent
+  }
+  ,
   {
     path:'dirdemo',component:DirectivedemoComponent
   },

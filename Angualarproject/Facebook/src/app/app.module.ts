@@ -15,6 +15,7 @@ import { DepartmentComponent } from './department/department.component';
 import { SimplylearnComponent } from './simplylearn/simplylearn.component';
 import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
+import { AttdirComponent } from './attdir/attdir.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DirectivedemoComponent } from './directivedemo/directivedemo.component'
     DepartmentComponent,
     SimplylearnComponent,
     DatabindingdemoComponent,
-    DirectivedemoComponent
+    DirectivedemoComponent,
+    AttdirComponent
   ],
   imports: [
     BrowserModule,

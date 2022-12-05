@@ -22,4 +22,26 @@ lang(num:any)
 {
   this.switcsdemo=num;
 }
+people: any[] = [
+  {
+    "name": "Douglas  Pace",
+    "AGE":25
+  },
+  {
+    "name": "Mcleod  Mueller",
+    "AGE":45
+  },
+  {
+    "name": "Day  Meyers",
+    "AGE":55
+  },
+  {
+    "name": "Aguirre  Ellis",
+    "AGE":78
+  },
+  {
+    "name": "Cook  Tyson",
+    "AGE":25
+  }
+];
 }
