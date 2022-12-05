@@ -63,7 +63,38 @@ Data Binding :
 
 		event :() 
 		interp: {{ }}.............. ? 
+		Property binding
+
+
+
+Angaulr : 
+
+	no need of refresh: its a live reloading ...!
+	its a component bases : all set of 4 file will be same place 
+	
+
+
+Components ....!
+Routing .......!
+Data Binding...!
+Directive......!
+		
+			based on our condittion if i want to display ...!
+				
+
+		Structural Directive 
+			
+			ngIf 
+			ngFor 
+			ngSwitch
+	
+		Attriabute Directive 
+			
+			ngClass 
+			ngStyle 
+
 
 
 		
+
 

@@ -14,6 +14,7 @@ import { ServicesComponent } from './services/services.component';
 import { DepartmentComponent } from './department/department.component';
 import { SimplylearnComponent } from './simplylearn/simplylearn.component';
 import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.component';
+import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.comp
     ServicesComponent,
     DepartmentComponent,
     SimplylearnComponent,
-    DatabindingdemoComponent
+    DatabindingdemoComponent,
+    DirectivedemoComponent
   ],
   imports: [
     BrowserModule,
