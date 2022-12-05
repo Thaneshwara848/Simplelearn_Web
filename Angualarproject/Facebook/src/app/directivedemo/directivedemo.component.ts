@@ -16,4 +16,10 @@ addfruit(myfruit:any)
   console.log(myfruit);
   this.fruits.push(myfruit);
 }
+
+switcsdemo=10;
+lang(num:any)
+{
+  this.switcsdemo=num;
+}
 }

@@ -14,3 +14,21 @@
         <li>{{fruit}}</li>
     </ul>
 </div>
+<hr>
+<div>
+    Number :<input type="text" name="num" #num>
+    <input type="submit" value="Lang" (click)="lang(num.value)">
+    <ul [ngSwitch]="switcsdemo">
+        <li *ngSwitchCase="1">kannada</li>
+        <li *ngSwitchCase="2">English</li>
+        <li *ngSwitchCase="3">Marati</li>
+        <li *ngSwitchCase="4">Telgu</li>
+        <li *ngSwitchCase="5">Tamil</li>
+        <li *ngSwitchCase="6">Maliyali</li>
+        <li *ngSwitchDefault>Hindi</li>
+
+
+
+    </ul>
+</div>
+
