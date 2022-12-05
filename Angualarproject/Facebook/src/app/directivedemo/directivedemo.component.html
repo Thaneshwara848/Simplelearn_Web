@@ -5,3 +5,12 @@
 <div class="div2"  *ngIf="xyz">
     <h1>Helloooooooooo Boss</h1>
 </div>
+
+<div>
+    Fruit :<input type="text" name="fruit" #fruit>
+    <input type="submit" value="Add Fruit" (click)="addfruit(fruit.value)">
+    <ul *ngFor="let fruit of  fruits">
+        <!-- <li *ngIf="fruit=='Banana'">{{fruit}}</li> -->
+        <li>{{fruit}}</li>
+    </ul>
+</div>
