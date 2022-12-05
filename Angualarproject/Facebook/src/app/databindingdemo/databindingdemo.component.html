@@ -6,4 +6,29 @@
 <hr>
 <input type="submit" (click)="abc()">
 <hr>
-<img [src]="myimg">
+<img [src]="myimg" width="10%" height="10%">
+<hr>
+
+Count  :  {{count }} <br>
+<input type="submit" value="Increment" (click)="increment()">
+<input type="submit" value="Decrement" (click)="decrement()">
+
+<hr>
+
+name :<input type="text" name="uname" #uname>
+<input type="submit" (click)="myname(uname.value)">
+<hr>
+
+Principal :<input type="text" name="pri" #pri><br>
+
+Time :<input type="text" name="time" #time><br>
+
+Rate of Int :<input type="text" name="roi" #roi><br>
+
+
+EMI  :<input type="text" value={{emi}}><br>
+Total :<input type="text" value={{total}}><br>
+
+
+<input type="submit" value="Caculate"
+ (click)="caculate(pri.value,time.value, roi.value)">
