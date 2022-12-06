@@ -16,6 +16,7 @@ import { SimplylearnComponent } from './simplylearn/simplylearn.component';
 import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { AttdirComponent } from './attdir/attdir.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AttdirComponent } from './attdir/attdir.component';
     SimplylearnComponent,
     DatabindingdemoComponent,
     DirectivedemoComponent,
-    AttdirComponent
+    AttdirComponent,
+    PipedemoComponent
   ],
   imports: [
     BrowserModule,

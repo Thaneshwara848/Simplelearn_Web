@@ -101,6 +101,76 @@ Directive......!
 		
 
 
+Angaulr : 
+
+
+Component 
+Routing
+Data Binding 
+Directive 
+
+Pipes 
+Services 
+forms 
+Https 
+Life Cycle Hooks 
+
+
+		login :
+
+
+Component 
+	set of 4 files 
+		
+		html 	: static web page 
+		css   : style , look and feel 
+		spec.ts: testing
+		tc     : logical 
+
+
+Routing
+		if i want nagivagate from one comp to other comp 
+		routerLink 
+		<router-outlet>
+		router.ts
+			[{path:'',comp:xyz....!}]
+
+Data Binding 
+	event 			:() ===> html ---- ts
+	property bingin 		:[]=====> ts ======html 
+	interpolatin 		: {{ }}=> ts======html 
+
+	two ways 			:
+
+Directive 
+		based on our condation if i want perfom any action 
+
+		Strutural : 
+			*ngIF 
+			*ngFOr 
+			*ngSwitch
+
+		Attrubiute 
+			ngClass 
+
+
+	
+Pipes
+		pipe : 
+	
+
+if i wamt to transform the data 
+
+		one formate to other formate 
+
+
+		ThaNEshWaRA
+
+
+			upper
+			lower 
+			title
+		
 
 
 
@@ -108,6 +178,34 @@ Directive......!
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+Services 
+forms 
+Https 
+Life Cycle Hooks 
 
 
 
