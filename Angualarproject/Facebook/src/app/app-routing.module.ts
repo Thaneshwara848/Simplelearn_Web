@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AttdirComponent } from './attdir/attdir.component';
 import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
+import { FormdemoComponent } from './formdemo/formdemo.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
@@ -11,6 +12,9 @@ import { ServicesComponent } from './services/services.component';
 import { SimplylearnComponent } from './simplylearn/simplylearn.component';
 
 const routes: Routes = [
+  {
+    path:'formdemo',component:FormdemoComponent
+  },
   {
     path:'pipedemo',component:PipedemoComponent
   },

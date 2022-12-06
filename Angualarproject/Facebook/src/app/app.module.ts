@@ -19,6 +19,10 @@ import { AttdirComponent } from './attdir/attdir.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { SqrPipe } from './sqr.pipe';
 import { CubePipe } from './cube.pipe';
+import { FormdemoComponent } from './formdemo/formdemo.component';
+import { TempletdrivenComponent } from './templetdriven/templetdriven.component';
+import { ReactiveComponent } from './reactive/reactive.component';
+import { FormsModule }   from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,11 +42,15 @@ import { CubePipe } from './cube.pipe';
     AttdirComponent,
     PipedemoComponent,
     SqrPipe,
-    CubePipe
+    CubePipe,
+    FormdemoComponent,
+    TempletdrivenComponent,
+    ReactiveComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

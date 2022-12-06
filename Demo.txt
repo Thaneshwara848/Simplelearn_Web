@@ -156,54 +156,43 @@ Directive
 
 	
 Pipes
-		pipe : 
-	
-
-if i wamt to transform the data 
-
-		one formate to other formate 
-
-
-		ThaNEshWaRA
-
-
-			upper
-			lower 
-			title
-		
+		date 
+		string 
+		currentcy 
+		obj 
 
 
 
 
+forms (to achive the vlaidation ...!)
 
 
+		2 types of Forms 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			1) Templet Driven From 
+					HTML
+						touched 
+						untouched 
+						valid 
+						invalid 
 		 
-Services 
-forms 
+			2 ) Reactive 
+					Type Script
+				FormControl 
+				Validators 
+				FormGroup 
+				FoumBuilder 
+				 
+
+
+Uname : 
+Pass : 
+
+Submit 
+
+
+
+Services
 Https 
 Life Cycle Hooks 
 

@@ -6,6 +6,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class SqrPipe implements PipeTransform {
 
   transform(value: any): unknown {
+    
+    
+    
     return value * value;
   }
 

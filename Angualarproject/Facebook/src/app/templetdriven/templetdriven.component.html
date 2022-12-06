@@ -1,0 +1,29 @@
+<div style="text-align: center">
+    <h4>Templet Drive From Demo</h4>
+   <form  #userForm="ngForm"  (ngSubmit)="myemp(userForm.value)">
+    <div>
+        <label>USER NAME :
+             <span *ngIf="username.invalid" style="color: red">*</span>
+            </label>
+        <input type="text"  required name="username" #username="ngModel" ngModel><br>
+        
+        <span *ngIf="username.valid" style="color: Green">Succcess ...!</span>
+   
+        <span *ngIf="username.invalid && username.touched" style="color: red">User name is Requried ...!</span>
+    </div>
+
+    <div>
+        <label>USER PASS :  
+            
+            <span *ngIf="userpass.invalid" style="color: red">*</span>
+        </label>
+        <input type="text"  required name="userpass" #userpass="ngModel" ngModel><br>
+        <span *ngIf="userpass.invalid && userpass.touched" style="color: red">User pass is Requried ...!</span>
+        
+        <span *ngIf="userpass.valid" style="color: Green">Succcess ...!</span>
+    </div>
+
+    <input type="submit"  class="btn btn-primary" value="LOGIN">
+    <input type="submit"  class="btn btn-danger" value="RESET">
+   </form>
+</div>
