@@ -17,6 +17,8 @@ import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.comp
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { AttdirComponent } from './attdir/attdir.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { SqrPipe } from './sqr.pipe';
+import { CubePipe } from './cube.pipe';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
     DatabindingdemoComponent,
     DirectivedemoComponent,
     AttdirComponent,
-    PipedemoComponent
+    PipedemoComponent,
+    SqrPipe,
+    CubePipe
   ],
   imports: [
     BrowserModule,
