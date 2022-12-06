@@ -1,1 +1,13 @@
-<p>reactive works!</p>
+<div style="text-align: center">
+    <form [formGroup]="student"  (ngSubmit)="myInfo(student.value)"> 
+        <h4>
+            First Name  : <input type="text"  formControlName="firstname"> <br>
+            Last Name   : <input type="text"  formControlName="lastname"> <br>
+            Age         : <input type="text"  formControlName="age"> <br>
+
+            <br>
+            <input type="submit" value="REGISTER" class="btn btn-success" [disabled]="student.invalid">
+            <input type="submit" value="RESET" class="btn btn-danger">
+        </h4>
+    </form>
+</div>
