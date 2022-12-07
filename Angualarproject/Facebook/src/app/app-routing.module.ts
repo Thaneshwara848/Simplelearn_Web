@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AttdirComponent } from './attdir/attdir.component';
+import { ChatappComponent } from './chatapp/chatapp.component';
 import { DatabindingdemoComponent } from './databindingdemo/databindingdemo.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { FormdemoComponent } from './formdemo/formdemo.component';
@@ -13,6 +14,9 @@ import { ServicesComponent } from './services/services.component';
 import { SimplylearnComponent } from './simplylearn/simplylearn.component';
 
 const routes: Routes = [
+  {
+    path:'chat',component:ChatappComponent
+  },
   {
     path:'servicedemo',component:ServicedemoComponent
   },

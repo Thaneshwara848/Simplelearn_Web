@@ -206,33 +206,10 @@ Anguar
 	Directive 
 	PIPE 
 	Angular Forms
+	Services 
 
-
-	Services	
-
-
-
-
-	Https 
+	Https 	
 	Life Cycle Hooks 
-
-
-	Servives 
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
