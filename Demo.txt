@@ -185,16 +185,84 @@ forms (to achive the vlaidation ...!)
 				 
 
 
-Uname : 
-Pass : 
-
-Submit 
 
 
 
-Services
-Https 
-Life Cycle Hooks 
+
+
+
+
+
+
+HTML 
+CSS 
+JS 
+TypeScript 
+Anguar 
+
+	Component 
+	Routing 
+	Data Binding 
+	Directive 
+	PIPE 
+	Angular Forms
+
+
+	Services	
+
+
+
+
+	Https 
+	Life Cycle Hooks 
+
+
+	Servives 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
