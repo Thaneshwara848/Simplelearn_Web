@@ -31,6 +31,8 @@ import { RamaComponent } from './rama/rama.component';
 import { RavanaComponent } from './ravana/ravana.component';
 import { ChatappComponent } from './chatapp/chatapp.component';
 import { SeethaComponent } from './seetha/seetha.component';
+import { MobilesComponent } from './mobiles/mobiles.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -62,13 +64,15 @@ import { SeethaComponent } from './seetha/seetha.component';
     RamaComponent,
     RavanaComponent,
     ChatappComponent,
-    SeethaComponent
+    SeethaComponent,
+    MobilesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

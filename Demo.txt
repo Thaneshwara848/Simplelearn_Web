@@ -207,15 +207,35 @@ Anguar
 	PIPE 
 	Angular Forms
 	Services 
-
-	Https 	
 	Life Cycle Hooks 
 
 
+	ngOnInit  : as soon as component load the data then 
+			this method will execute 
+	
+	ngOnDetrory : if you want to kill or if you want to close 
+				the connection then we are using the 
+				ng on Destroy 
+				
+	ngDoCheck  : if i want to dectect some changes if the componen t gets updates .....
+
+	
+	Https: 
+			post 
+			get 
+			put 
+			delete  	
+	
 
 
 
 
+
+http : 
+		post 
+		get
+		put 
+		delete 
 
 
 
